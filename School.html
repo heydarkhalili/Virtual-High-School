@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS-->
+    <!-- buildstrap css/main.css-->
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/School.css">
+    <!-- endbuild-->
+    <title>School</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top" id="nav1">
+        <div class="cintainer row">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <a class="navbar-brand mr-auto" " href=" #"><img src="Images/log.png" height="30" width="41"></a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>courses</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="./contactus.html"><span
+                                class="fa fa-address-card fa-lg"></span> ContactUs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-print fa-lg"></span>Reports</a>
+                    <li class="nav-item"><a class="nav-link" href="#"><span
+                                class="fa fa-list fa-lg"></span>Registration</a>
+                </ul>
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginModal">
+                        <span class="fa fa-sign-in"></span> Login
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header MHeader">
+                    <h4 class="modal-title wColor">Login</h4>
+                    <button type="button" class="close wColor" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body MBody">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail3">User Name</label>
+                                <input type="username" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
+                                    placeholder="Enter username">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1"
+                                    id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Virtual High School of Science</h1>
+                </div>
+                <div class="col-12 col-sm">
+                    <img src="Images/log.png" class="img-fluid height=" 100px" width="100px">
+                </div>            
+            </div>
+        </div>
+    </header>
+
+    <div class=" container-fluid">
+        <div class="row">
+            <div class="col-sm-4 col-lg-3 col-md-3 card-body card2">
+                <div class="container">
+                    <div class="container">
+                        <h2>Last News</h2>
+                        <ul >
+                       <li ><a href="#">First item</a></li>
+                          <li ><a href="#">Second item</a></li>
+                          <li ><a href="#">Third item</a></li>
+                          <li ><a href="#">Forth item</a></li>
+                        </ul>
+                      </div>
+               </div>
+            </div>
+            <div class="col-sm-4 col-lg-6 col-md-6 card-body card1">
+                 <div class="container">
+                     <div class="col">
+                        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                               <div class="carousel-item active">
+                                    <img class="d-block img-fluid" src="Images/school.jpg" alt="school">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2>My School</h2>
+                                        <p class="d-none d-sm-block">A unique e.School</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <img class="d-block img-fluid" src="Images/class-01.jpg" alt="class-01">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2 class="mt-0">My new class <span class="badge badge-danger">NEW
+                                             CLASS</span></h2>
+                                            <p class="d-none d-sm-block">Very good Class</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block img-fluid" src="Images/class-02.jpg" alt="class-02">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h2>Class Two</h2>
+                                        <h4>Excellent class</h4>
+                                        <p class="d-none d-sm-block">،This is my class</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block img-fluid" src="Images/class-03.jpg" alt="class-02">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h2>Class Three</h2>
+                                            <h4>Excellent class</h4>
+                                            <p class="d-none d-sm-block">،This is my class</p>
+                                        </div>
+                                </div>
+                            </div>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#mycarousel" data-slide-to="1"></li>
+                                    <li data-target="#mycarousel" data-slide-to="2"></li>
+                                    <li data-target="#mycarousel" data-slide-to="3"></li>
+                                </ol>
+                                    <a class="carousel-control-prev" href="#mycarousel" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#mycarousel" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </a>
+                                    <button class="btn btn-danger btn-sm" id="carouselButton">
+                                        <span id="carousel-button-icon" class="fa fa-pause"></span>
+                                    </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-3 col-md-3 card-body card2">
+                <div class="container">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#"><span
+                            class="fa fa-arrows-v" fa-lg"></span> Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span
+                            class="fa fa-users fa-lg"></span> Top Students</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span
+                            class="fa fa-book fa-lg"></span> Library</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <footer class="footer container-fluid">
+        <div >
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3 card-body card2">
+                    <div>
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Cources</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Reports</a></li>
+                            <li><a href="#">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 card-body card1">
+                    <h5>Our Address</h5>
+                    <address>
+                        108, 116 street<br>
+                        125 avaneu<br>
+                        My City<br>
+                        <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                        <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                        <i class="fa fa-envelope fa-lg"></i>: <a
+                        href="mailto:newschool@edu.net">newschool@edu.net</a>
+                    </address>
+                    <div class="text-center ">
+                        <a class="btn btn-spcial-icon btn-google" href="http://google.com/+"><i
+                            class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-spcial-icon btn-facebook"
+                            href="http://www.facebook.com/profile.pl"><i
+                            class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-spcial-icon btn-linkedin"
+                            href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-spcial-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-spcial-icon btn-youtube" href="http://youtube.com/"><i
+                            class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-spcial-icon" href="mailto:"><i
+                            class="fa fa-envelope-o fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 card-body card2">
+                    <div>
+                        MAP
+                    </div>
+    
+                    <div class="mt-auto">
+                        <p>@ Copyright 2021 New Virtual High School</p>
+                    </div>
+                </div>  
+            </div>
+            
+        </div>
+    </footer> 
+                  
+</body>
+
+</html>
